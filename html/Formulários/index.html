@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Trabalhando com formulários</h1>
+    <p>Formulário simples</p>
+    <form action="">
+        <p>
+            <label for="inome">Nome:</label>  <!--Label=  é obrigatório para todo input ou formulário (Etiqueta)   for= identifica a quem a etiqueta é destinada-->
+            <input type="text" name="Nome" id="inome">  <!--Input= pede para o usuário digitar    type= oq será digitado pelo usuário  name= mostrar o que foi pedido  id=identificador-->          
+        </p>
+        <p>
+            <label for="isobrenome">Sobrenome</label>
+            <input type="text" name="Sobrenome" id="isobrenome"> 
+        </p>
+        <p>
+            <label for="iemail">Email</label>
+            <input type="email" name="Email" id="iemail">
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="Senha" id="isenha">
+        </p>
+        <p>
+            Cor favorita: <br>
+            <label for="ivermelho">Vermelho</label>
+            <input type="radio" name="cor" id="ivermelho"> <!--radio= é de slecionar (se deixar o nome como cores só da pra marcar um por vez)-->
+            <label for="iazul">Azul</label>
+            <input type="radio" name="cor" id="iazul">
+            <label for="iamarelo">Amarelo</label>
+            <input type="radio" name="cor" id="iamarelo">
+        </p>
+        <p>
+            Gosto musical: <br>
+            <input type="checkbox" name="Trap" id="itrap"><!--da diversas opções para assinalar(pode assinalar várias ao mesmo tempo)-->
+            <label for="itrap">Trap</label>
+            <input type="checkbox" name="Poesia" id="ipoesia">
+            <label for="ipoesia">Poesia</label>
+            <input type="checkbox" name="Mpb" id="impb">
+            <label for="impb">Mpb</label>
+        </p>
+        <p>
+            Curso: <br>
+            <select name="" id="">
+                <option value="">Selecione...</option> <!--Caixa de opções-->
+                <option value="">Suporte em TI</option>
+                <option value="">Gestão Empresarial</option>
+                <option value="">Desenvolvimento Web</option>
+            </select>
+        </p>
+        <p>
+            <label for="imensagem">Mensagem:</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea><!--cria uma area de mensagem pro usuario digitar-->
+        </p>
+        <input type="submit" value="Enviar"> <!--value= oq está escito dentro da caixa de envio submit= enviar os dados-->
+        <input type="reset" value="Limpar  ">
+
+    </form>
+
+
+</body>
+</html>
