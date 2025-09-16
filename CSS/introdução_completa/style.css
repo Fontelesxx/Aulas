@@ -1,0 +1,18 @@
+*{
+    margin: 0%;
+}
+
+h1 {
+    background-color: rgba(212, 98, 41, 0.637);
+    color: aliceblue;
+    margin: 100px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.grupo {
+    background-color: wheat;
+    color: indianred;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 20px;
+} 
